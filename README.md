@@ -7,5 +7,6 @@ Ship N Learn Data Diff
 
 
 ### When to use data diff?
-- When you suspect theres only a small difference in data between source and destination
-- Recommended to use with `updated_on` as index
+- When you suspect theres only a small difference in data between source and destination, else it is going to have to scan through each block of data, and it will still be relatively slow
+
+- On how to improve performance, please refer to the [source library](https://github.com/datafold/data-diff#performance-considerations)
