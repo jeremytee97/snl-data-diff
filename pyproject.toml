@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "snl-data"
 version = "0.1.0"
-description = "SnL for dbt-great-expectation and data-diff"
+description = "SnL for data-diff"
 authors = ["jeremytee97 <jeremytee97@gmail.com>"]
 
 [tool.poetry.dependencies]
@@ -9,7 +9,6 @@ python = ">=3.8,<4.0"
 snowflake-connector-python = "2.7.2"
 psycopg2-binary = "^2.9.3"
 pandas = "^1.4.4"
-great-expectations = "^0.15.22"
 data-diff = {git = "https://github.com/datafold/data-diff.git"}
 
 [tool.poetry.dev-dependencies]
